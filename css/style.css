@@ -1,0 +1,29 @@
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+html,body{
+margin:0;
+}
+
+html { 
+  background: url("../images/bg.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+.monthly-favourites-container {
+    
+}
