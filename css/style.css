@@ -6,6 +6,15 @@ html,body{
 margin:0;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper-red {
+    background-color: red;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -15,8 +24,9 @@ margin:0;
     border-radius: 0;
     margin-bottom: 0;
     padding: 5px;
-    background-color: #eac44c;
-    border-color: #eac44c;
+    background-color: red;
+    border-color: red;
+    color: white;
 }
 
 .callout-container {
@@ -50,6 +60,17 @@ margin:0;
 
 .monthly-favourites-container {}
 
+/* page headers */
+
+.page-header {
+    border-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 /* navbar*/
 
 .navalert-container {
@@ -123,4 +144,71 @@ margin:0;
 .btn-red:active:focus {
     background-color: rgb(172, 9, 9);
     border-color: rgb(172, 9, 9);
+}
+
+/* dividers */
+
+.quotes
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.block-divider-short {
+    width: 35px;
+}
+
+.block-divider-white {
+    background-color: white;
+}
+/* content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* legal containers */
+
+.legal-container {
+    bottom: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+    color: white;
+    text-align: right;
+}
+
+/* features */
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: red;
+}
+
+.blockquote {
+    text-align: center;
+}
+
+.table {
+    text-align: center;
 }
